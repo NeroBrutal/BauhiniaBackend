@@ -4,8 +4,8 @@ import http from "http";
 import { Server } from "socket.io";
 import cors from "cors";
 import dotenv from "dotenv";
-import routes from "./src/routes/v1/index.route.js";
-import connectDB from "./src/start/db.js";
+import routes from "./routes/v1/index.route.js";
+import connectDB from "./start/db.js";
 
 dotenv.config();
 

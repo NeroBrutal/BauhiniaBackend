@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "lint": "eslint src/**/*.js",
@@ -25,10 +25,13 @@
   },
   "dependencies": {
     "body-parser": "^2.2.0",
+    "config": "^4.1.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mongoose": "^8.19.3",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
     "winston": "^3.18.3"
   },
   "devDependencies": {

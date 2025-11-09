@@ -1,5 +1,4 @@
-const loginValidator = require("./loginValidator");
+import { signupValidator } from "./signupValidator.js";
+import { loginValidator } from "./loginValidator.js";
 
-module.exports = {
-  login: loginValidator,
-};
+export const validate = { signupValidator, loginValidator };
